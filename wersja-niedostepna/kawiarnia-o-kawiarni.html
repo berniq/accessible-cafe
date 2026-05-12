@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O kawiarni – Kawiarnia Zacisze</title>
+  <meta name="description" content="Dowiedz się więcej o Kawiarni Zacisze w Gdyni – nasza historia, wartości i informacje praktyczne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kawiarnia-style.css">
+</head>
+<body>
+
+  <a href="#glowna-tresc" class="skip-link">Przejdź do treści strony</a>
+
+  <header role="banner">
+    <nav class="site-nav" aria-label="Nawigacja główna">
+      <div class="nav-inner">
+        <a href="kawiarnia-index.html" class="nav-brand" aria-label="Kawiarnia Zacisze – strona główna">
+          <span aria-hidden="true">☕</span>
+          Kawiarnia Zacisze
+        </a>
+        <ul class="nav-links" role="list">
+          <li>
+            <a href="kawiarnia-index.html" aria-label="Przejdź do: Strona główna">
+              <span class="nav-icon" aria-hidden="true">🏠</span>
+              Strona główna
+            </a>
+          </li>
+          <li>
+            <a href="kawiarnia-o-kawiarni.html"
+               class="nav-active" aria-current="page"
+               aria-label="O kawiarni (jesteś tutaj)">
+              <span class="nav-icon" aria-hidden="true">🏡</span>
+              O kawiarni
+            </a>
+          </li>
+          <li>
+            <a href="kawiarnia-menu.html" aria-label="Przejdź do: Menu i cennik">
+              <span class="nav-icon" aria-hidden="true">📋</span>
+              Menu i cennik
+            </a>
+          </li>
+          <li>
+            <a href="kawiarnia-kontakt.html" aria-label="Przejdź do: Napisz do nas">
+              <span class="nav-icon" aria-hidden="true">✉️</span>
+              Napisz do nas
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="glowna-tresc">
+    <div class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
+          <a href="kawiarnia-index.html">Strona główna</a>
+          <span class="breadcrumb-sep" aria-hidden="true">›</span>
+          <span aria-current="page">O kawiarni</span>
+        </nav>
+        <span class="page-tag" aria-hidden="true">Kilka słów o nas</span>
+        <h1>O Kawiarni Zacisze</h1>
+        <p>Tutaj znajdziesz informacje o tym, kim jesteśmy, jakie mamy wartości i co dla Ciebie przygotowaliśmy.</p>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="container">
+
+        <div class="content-block">
+          <h2>Nasza historia</h2>
+          <p>
+            Kawiarnia Zacisze działa w Gdyni od 2018 roku.
+            Otworzyliśmy ją, bo brakowało nam w mieście miejsca, w którym można po prostu usiąść i spokojnie wypić kawę.
+            Nasz lokal ma 12 stolików. Jeśli wolisz siedzieć w spokojnym miejscu,
+            zarezerwuj stolik w tylnej części sali – jest tam ciszej.
+          </p>
+          <p>
+            Używamy kawy specialty od polskich palarni.
+            Wszystkie ciasta pieczemy sami, od poniedziałku do piątku.
+            W weekendy mamy ograniczony wybór ciast – możesz sprawdzić dostępność przez formularz kontaktowy.
+          </p>
+        </div>
+
+        <div class="content-block">
+          <h2>Jak wygląda nasz lokal</h2>
+          <ul class="feature-list" aria-label="Cechy lokalu">
+            <li><span class="fi" aria-hidden="true">🔇</span> Nie ma głośnej muzyki. Gramy cichą muzykę w tle lub nie gramy nic.</li>
+            <li><span class="fi" aria-hidden="true">💡</span> Oświetlenie jest ciepłe i przyciemnione. Nie używamy zimnych świetlówek.</li>
+            <li><span class="fi" aria-hidden="true">🐕</span> Dzieci i psy są mile widziane.</li>
+            <li><span class="fi" aria-hidden="true">♿</span> Lokal jest na parterze, bez schodów. Wejście ma szerokość 90 cm.</li>
+            <li><span class="fi" aria-hidden="true">🚽</span> Toaleta jest dostępna dla klientów. Nie ma bariery dla wózka.</li>
+            <li><span class="fi" aria-hidden="true">💳</span> Płacisz kartą lub gotówką. Przyjmujemy płatności zbliżeniowe.</li>
+          </ul>
+        </div>
+
+        <div class="content-block" style="border-left-color: var(--accent-green);">
+          <h2>Godziny otwarcia</h2>
+          <table class="hours-table" aria-label="Godziny otwarcia kawiarni">
+            <caption><strong>Aktualny harmonogram</strong></caption>
+            <thead>
+              <tr>
+                <th scope="col">Dzień tygodnia</th>
+                <th scope="col">Godziny</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Poniedziałek – Piątek</td><td>8:00 – 19:00</td></tr>
+              <tr><td>Sobota</td>              <td>9:00 – 18:00</td></tr>
+              <tr><td>Niedziela</td>           <td>9:00 – 18:00</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="cta-row">
+          <a href="kawiarnia-menu.html" class="btn-primary">
+            <span aria-hidden="true">📋</span>
+            Zobacz menu i cennik
+          </a>
+          <a href="kawiarnia-kontakt.html" class="btn-primary" style="background-color: var(--accent-caramel); border-color: var(--accent-caramel);">
+            <span aria-hidden="true">✉️</span>
+            Napisz do nas
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-brand">☕ Kawiarnia Zacisze</p>
+      <p class="footer-meta">ul. Świętojańska 47, 81-391 Gdynia &nbsp;·&nbsp; Tel: <a href="tel:+48585555000">58 555 50 00</a></p>
+      <p class="footer-meta">© 2024 Kawiarnia Zacisze. Strona zbudowana z myślą o dostępności cyfrowej.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu i cennik – Kawiarnia Zacisze</title>
+  <meta name="description" content="Sprawdź nasze menu i cennik – kawa, herbata, ciasta i kanapki w Kawiarni Zacisze w Gdyni.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kawiarnia-style.css">
+</head>
+<body>
+
+  <a href="#glowna-tresc" class="skip-link">Przejdź do treści strony</a>
+
+  <header role="banner">
+    <nav class="site-nav" aria-label="Nawigacja główna">
+      <div class="nav-inner">
+        <a href="kawiarnia-index.html" class="nav-brand" aria-label="Kawiarnia Zacisze – strona główna">
+          <span aria-hidden="true">☕</span>
+          Kawiarnia Zacisze
+        </a>
+        <ul class="nav-links" role="list">
+          <li>
+            <a href="kawiarnia-index.html" aria-label="Przejdź do: Strona główna">
+              <span class="nav-icon" aria-hidden="true">🏠</span>
+              Strona główna
+            </a>
+          </li>
+          <li>
+            <a href="kawiarnia-o-kawiarni.html" aria-label="Przejdź do: O kawiarni">
+              <span class="nav-icon" aria-hidden="true">🏡</span>
+              O kawiarni
+            </a>
+          </li>
+          <li>
+            <a href="kawiarnia-menu.html"
+               class="nav-active" aria-current="page"
+               aria-label="Menu i cennik (jesteś tutaj)">
+              <span class="nav-icon" aria-hidden="true">📋</span>
+              Menu i cennik
+            </a>
+          </li>
+          <li>
+            <a href="kawiarnia-kontakt.html" aria-label="Przejdź do: Napisz do nas">
+              <span class="nav-icon" aria-hidden="true">✉️</span>
+              Napisz do nas
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="glowna-tresc">
+    <div class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
+          <a href="kawiarnia-index.html">Strona główna</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Menu i cennik</span>
+        </nav>
+        <span class="page-tag" aria-hidden="true">Co podajemy i ile to kosztuje</span>
+        <h1>Menu i cennik</h1>
+        <p>Wszystkie ceny zawierają VAT. Napoje podajemy w rozmiarze 250 ml, jeśli nie napisano inaczej.</p>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="container">
+
+        <!-- Nawigacja do kategorii wewnątrz strony -->
+        <nav class="menu-anchors" aria-label="Skocz do kategorii menu">
+          <p>Przejdź bezpośrednio do kategorii:</p>
+          <a href="#kawa" class="anchor-link"><span aria-hidden="true">☕</span> Kawa</a>
+          <a href="#herbata" class="anchor-link"><span aria-hidden="true">🍵</span> Herbata i napoje</a>
+          <a href="#ciasta" class="anchor-link"><span aria-hidden="true">🍰</span> Ciasta</a>
+          <a href="#kanapki" class="anchor-link"><span aria-hidden="true">🥪</span> Kanapki</a>
+        </nav>
+
+        <p class="allergen-note" role="note">
+          <strong>Informacja o alergenach:</strong> Jeśli masz alergię pokarmową lub nietolerancję,
+          napisz do nas przed wizytą przez <a href="kawiarnia-kontakt.html" style="color: var(--accent-green); font-weight: 700;">formularz kontaktowy</a>
+          lub zadzwoń: <a href="tel:+48585555000" style="color: var(--accent-green); font-weight: 700;">58 555 50 00</a>.
+          Podamy Ci dokładny skład każdego dania.
+        </p>
+
+        <!-- Kawa -->
+        <section id="kawa" aria-labelledby="cat-kawa">
+          <div class="menu-category">
+            <div class="menu-category-header">
+              <span class="cat-icon" aria-hidden="true">☕</span>
+              <h2 id="cat-kawa">Kawa</h2>
+            </div>
+            <div class="menu-items">
+              <div class="menu-row">
+                <div><div class="menu-name">Espresso</div><div class="menu-desc">30 ml, czarna kawa</div></div>
+                <div class="menu-price">9 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Americano</div><div class="menu-desc">Espresso z gorącą wodą</div></div>
+                <div class="menu-price">12 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Flat white</div><div class="menu-desc">Espresso z mlekiem (160 ml)</div></div>
+                <div class="menu-price">16 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Latte</div><div class="menu-desc">Espresso z mlekiem (300 ml)</div></div>
+                <div class="menu-price">18 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Cappuccino</div><div class="menu-desc">Espresso z pianką mleczną</div></div>
+                <div class="menu-price">16 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Kawa filtrowana</div><div class="menu-desc">Pour-over, 300 ml</div></div>
+                <div class="menu-price">14 zł</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Herbata i napoje -->
+        <section id="herbata" aria-labelledby="cat-herbata">
+          <div class="menu-category">
+            <div class="menu-category-header">
+              <span class="cat-icon" aria-hidden="true">🍵</span>
+              <h2 id="cat-herbata">Herbata i napoje</h2>
+            </div>
+            <div class="menu-items">
+              <div class="menu-row">
+                <div><div class="menu-name">Herbata czarna</div><div class="menu-desc">Filiżanka 250 ml, mleko na życzenie</div></div>
+                <div class="menu-price">12 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Herbata zielona</div><div class="menu-desc">Filiżanka 250 ml</div></div>
+                <div class="menu-price">12 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Matcha latte</div><div class="menu-desc">Zielona herbata z mlekiem</div></div>
+                <div class="menu-price">19 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Gorąca czekolada</div><div class="menu-desc">Ciemna czekolada 72%, 250 ml</div></div>
+                <div class="menu-price">18 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Woda mineralna</div><div class="menu-desc">Butelka 0,33 l</div></div>
+                <div class="menu-price">6 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Sok pomarańczowy</div><div class="menu-desc">Świeżo wyciskany, 250 ml</div></div>
+                <div class="menu-price">14 zł</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Ciasta -->
+        <section id="ciasta" aria-labelledby="cat-ciasta">
+          <div class="menu-category">
+            <div class="menu-category-header">
+              <span class="cat-icon" aria-hidden="true">🍰</span>
+              <h2 id="cat-ciasta">Ciasta i wypieki</h2>
+            </div>
+            <div class="menu-items">
+              <div class="menu-row">
+                <div><div class="menu-name">Sernik klasyczny</div><div class="menu-desc">Jeden kawałek, ok. 150 g</div></div>
+                <div class="menu-price">15 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Szarlotka</div><div class="menu-desc">Z cynamonem, jeden kawałek</div></div>
+                <div class="menu-price">14 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Brownie czekoladowe</div><div class="menu-desc">Jeden kawałek, ok. 100 g</div></div>
+                <div class="menu-price">14 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Croissant maślany</div><div class="menu-desc">Jedna sztuka, 80 g</div></div>
+                <div class="menu-price">10 zł</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Kanapki -->
+        <section id="kanapki" aria-labelledby="cat-kanapki">
+          <div class="menu-category">
+            <div class="menu-category-header">
+              <span class="cat-icon" aria-hidden="true">🥪</span>
+              <h2 id="cat-kanapki">Kanapki i przekąski</h2>
+            </div>
+            <div class="menu-items">
+              <div class="menu-row">
+                <div><div class="menu-name">Kanapka z serem i warzywami</div><div class="menu-desc">Chleb żytni, ser gouda, sałata, pomidor</div></div>
+                <div class="menu-price">18 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Kanapka z łososiem</div><div class="menu-desc">Bagietka, łosoś wędzony, twarożek</div></div>
+                <div class="menu-price">24 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Jajka sadzone na toście</div><div class="menu-desc">Dwa jajka, tost pszenny, masło</div></div>
+                <div class="menu-price">20 zł</div>
+              </div>
+              <div class="menu-row">
+                <div><div class="menu-name">Owsianka z owocami</div><div class="menu-desc">Owies, mleko owsiane, banany, truskawki</div></div>
+                <div class="menu-price">16 zł</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <a href="kawiarnia-kontakt.html" class="btn-primary">
+          <span aria-hidden="true">✉️</span>
+          Masz pytanie o menu? Napisz do nas
+        </a>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-brand">☕ Kawiarnia Zacisze</p>
+      <p class="footer-meta">ul. Świętojańska 47, 81-391 Gdynia &nbsp;·&nbsp; Tel: <a href="tel:+48585555000">58 555 50 00</a></p>
+      <p class="footer-meta">© 2024 Kawiarnia Zacisze. Strona zbudowana z myślą o dostępności cyfrowej.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
