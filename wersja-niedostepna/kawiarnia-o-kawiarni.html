@@ -3,140 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O kawiarni – Kawiarnia Zacisze</title>
-  <meta name="description" content="Dowiedz się więcej o Kawiarni Zacisze w Gdyni – nasza historia, wartości i informacje praktyczne.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <title>O nas – Kawiarnia Zacisze</title>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="kawiarnia-style.css">
 </head>
 <body>
 
-  <a href="#glowna-tresc" class="skip-link">Przejdź do treści strony</a>
-
-  <header role="banner">
-    <nav class="site-nav" aria-label="Nawigacja główna">
-      <div class="nav-inner">
-        <a href="kawiarnia-index.html" class="nav-brand" aria-label="Kawiarnia Zacisze – strona główna">
-          <span aria-hidden="true">☕</span>
-          Kawiarnia Zacisze
-        </a>
-        <ul class="nav-links" role="list">
-          <li>
-            <a href="kawiarnia-index.html" aria-label="Przejdź do: Strona główna">
-              <span class="nav-icon" aria-hidden="true">🏠</span>
-              Strona główna
-            </a>
-          </li>
-          <li>
-            <a href="kawiarnia-o-kawiarni.html"
-               class="nav-active" aria-current="page"
-               aria-label="O kawiarni (jesteś tutaj)">
-              <span class="nav-icon" aria-hidden="true">🏡</span>
-              O kawiarni
-            </a>
-          </li>
-          <li>
-            <a href="kawiarnia-menu.html" aria-label="Przejdź do: Menu i cennik">
-              <span class="nav-icon" aria-hidden="true">📋</span>
-              Menu i cennik
-            </a>
-          </li>
-          <li>
-            <a href="kawiarnia-kontakt.html" aria-label="Przejdź do: Napisz do nas">
-              <span class="nav-icon" aria-hidden="true">✉️</span>
-              Napisz do nas
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main id="glowna-tresc">
-    <div class="page-header">
-      <div class="container">
-        <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
-          <a href="kawiarnia-index.html">Strona główna</a>
-          <span class="breadcrumb-sep" aria-hidden="true">›</span>
-          <span aria-current="page">O kawiarni</span>
-        </nav>
-        <span class="page-tag" aria-hidden="true">Kilka słów o nas</span>
-        <h1>O Kawiarni Zacisze</h1>
-        <p>Tutaj znajdziesz informacje o tym, kim jesteśmy, jakie mamy wartości i co dla Ciebie przygotowaliśmy.</p>
-      </div>
+<header>
+  <nav class="site-nav nav-layout-about" aria-label="nav">
+    <div class="nav-inner">
+      <ul class="nav-links">
+        <li><a href="kawiarnia-index.html" title="">🏠</a></li>
+        <li><a href="kawiarnia-o-kawiarni.html" title="">🏡</a></li>
+        <li><a href="kawiarnia-kontakt.html" title="">✉️</a></li>
+        <li><a href="kawiarnia-menu.html" title="">📋</a></li>
+      </ul>
+      <a href="kawiarnia-index.html" class="nav-brand">☕ Zacisze</a>
     </div>
+  </nav>
+</header>
 
-    <div class="page-content">
-      <div class="container">
+<main>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="kawiarnia-index.html">start</a> › o nas
+      </nav>
+      <h1>O kawiarni</h1>
+    </div>
+  </div>
 
-        <div class="content-block">
-          <h2>Nasza historia</h2>
-          <p>
-            Kawiarnia Zacisze działa w Gdyni od 2018 roku.
-            Otworzyliśmy ją, bo brakowało nam w mieście miejsca, w którym można po prostu usiąść i spokojnie wypić kawę.
-            Nasz lokal ma 12 stolików. Jeśli wolisz siedzieć w spokojnym miejscu,
-            zarezerwuj stolik w tylnej części sali – jest tam ciszej.
-          </p>
-          <p>
-            Używamy kawy specialty od polskich palarni.
-            Wszystkie ciasta pieczemy sami, od poniedziałku do piątku.
-            W weekendy mamy ograniczony wybór ciast – możesz sprawdzić dostępność przez formularz kontaktowy.
-          </p>
-        </div>
-
-        <div class="content-block">
-          <h2>Jak wygląda nasz lokal</h2>
-          <ul class="feature-list" aria-label="Cechy lokalu">
-            <li><span class="fi" aria-hidden="true">🔇</span> Nie ma głośnej muzyki. Gramy cichą muzykę w tle lub nie gramy nic.</li>
-            <li><span class="fi" aria-hidden="true">💡</span> Oświetlenie jest ciepłe i przyciemnione. Nie używamy zimnych świetlówek.</li>
-            <li><span class="fi" aria-hidden="true">🐕</span> Dzieci i psy są mile widziane.</li>
-            <li><span class="fi" aria-hidden="true">♿</span> Lokal jest na parterze, bez schodów. Wejście ma szerokość 90 cm.</li>
-            <li><span class="fi" aria-hidden="true">🚽</span> Toaleta jest dostępna dla klientów. Nie ma bariery dla wózka.</li>
-            <li><span class="fi" aria-hidden="true">💳</span> Płacisz kartą lub gotówką. Przyjmujemy płatności zbliżeniowe.</li>
-          </ul>
-        </div>
-
-        <div class="content-block" style="border-left-color: var(--accent-green);">
-          <h2>Godziny otwarcia</h2>
-          <table class="hours-table" aria-label="Godziny otwarcia kawiarni">
-            <caption><strong>Aktualny harmonogram</strong></caption>
-            <thead>
-              <tr>
-                <th scope="col">Dzień tygodnia</th>
-                <th scope="col">Godziny</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>Poniedziałek – Piątek</td><td>8:00 – 19:00</td></tr>
-              <tr><td>Sobota</td>              <td>9:00 – 18:00</td></tr>
-              <tr><td>Niedziela</td>           <td>9:00 – 18:00</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="cta-row">
-          <a href="kawiarnia-menu.html" class="btn-primary">
-            <span aria-hidden="true">📋</span>
-            Zobacz menu i cennik
-          </a>
-          <a href="kawiarnia-kontakt.html" class="btn-primary" style="background-color: var(--accent-caramel); border-color: var(--accent-caramel);">
-            <span aria-hidden="true">✉️</span>
-            Napisz do nas
-          </a>
-        </div>
-
+  <div class="page-content">
+    <div class="container">
+      <div class="content-block">
+        <h2>Geneza i kosmogonia naszego miejsca</h2>
+        <p>
+          Kawiarnia Zacisze narodziła się niczym Feniks z popiołów szarej codzienności, wyłoniła się jak jutrzenka
+          ze mgły niepewności, wkradła się między kamienice Gdyni jak szept wiatru wśród rozśpiewanych lip.
+          Jest ona nie tylko przybytkiem kawy i ciasta, lecz świątynią spokoju, sanktuarium wrażliwości,
+          arkadyjską enklawą, w której czas płynie inaczej – wolniej, głębiej, jakby wsiąkał w drewniane
+          deski podłogi i zostawał na zawsze. Zrodziła się w roku 2018, kiedy to właściciele, dwie dusze
+          połączone wspólnym marzeniem o miejscu bez hałasu, bez pośpiechu, bez zbędnych słów,
+          postanowili rzucić wyzwanie wichrom nowoczesności i zbudować ostoję dla wszystkich spragnionych
+          ciszy. Było to jak rzucenie kamienia w spokojne jezioro – kręgi rozeszły się daleko, dotknęły
+          serc, poruszyły struny czułości u tych, którzy dawno zapomnieli, że chwila przy filiżance kawy
+          może być medytacją, że smak cynamonu może przenosić w dzieciństwo, że aromat świeżo mielonej
+          ziarna arabiki potrafi wypełnić całe płuca i kazać zapomnieć o wszystkim, co boli.
+        </p>
+        <p>
+          Historia naszego miejsca sięga głębiej niż rok założenia – sięga tęsknoty, która drzemie
+          w każdym człowieku. Tęsknoty za prostotą, za momentem, który nie mija, za rozmową, która
+          ma wagę i głębię. Kawiarnia to metafora samego życia: z zewnątrz skromna fasada, w środku
+          całe bogactwo smaków, zapachów, ludzkich historii. Każdy stolik to mały świat, każda filiżanka
+          to naczyń połączonych sieć wspomnień i nadziei. Zapraszamy więc wszystkich pielgrzymów
+          codzienności, wszystkich wędrowców po miejskich bezdrożach, wszystkich szukających przystani
+          w burzliwym morzu obowiązków i deadlines'ów, by zawinęli do naszego portu i zarzucili kotwicę
+          choćby na chwilę – bo właśnie chwila jest tym, co w Zaciszy najcenniejsze.
+        </p>
+        <p>
+          Przez lata gromadziliśmy wokół siebie całą mozaikę ludzkich istnień: emeryta czytającego
+          Miłosza przy oknie, studentkę piszącą pracę magisterską o fenomenologii Husserla przy
+          ostatnim espresso wieczoru, parę zakochanych, których historia miłosna zaczęła się właśnie
+          tutaj, przy wspólnym brownie, rodziców z małymi dziećmi, dla których kawiarnia stała się
+          bezpieczną przystanią w chaotycznym świecie placów zabaw i superbohaterów. Jesteśmy
+          mozaiką Gdyni, lustrem jej duszy, kroniką jej codzienności.
+        </p>
       </div>
-    </div>
-  </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="footer-inner">
-      <p class="footer-brand">☕ Kawiarnia Zacisze</p>
-      <p class="footer-meta">ul. Świętojańska 47, 81-391 Gdynia &nbsp;·&nbsp; Tel: <a href="tel:+48585555000">58 555 50 00</a></p>
-      <p class="footer-meta">© 2024 Kawiarnia Zacisze. Strona zbudowana z myślą o dostępności cyfrowej.</p>
+      <div class="content-block">
+        <h2>Filozofia i etos naszej misji</h2>
+        <p>
+          Nasza filozofia to filozofia uważności – mindfulness w każdej filiżance, buddyzm zen
+          w każdym kawałku sernika, stoicki spokój w każdym parze unoszącej się nad herbatą.
+          Wierzymy, że dobra kawa jest jak dobra rozmowa: powinna mieć głębię, być niespieszna,
+          zostawać w pamięci długo po tym, jak się skończy. Dlatego wybieramy ziarna jak poeta wybiera
+          słowa – z namysłem, z czułością, z przekonaniem, że każde z nich ma swoją historię,
+          swój klimat, swój charakter. Kawa specialty to dla nas nie produkt, lecz narracja –
+          opowieść o Etiopii, o Kolumbii, o rękach zbieraczy pochylonych nad krzewami w porannej mgle,
+          o całej długiej drodze ziarna do filiżanki, drodze pełnej namysłu i rzemiosła.
+        </p>
+        <p>
+          Ciasta są u nas czymś więcej niż ciastami. Są manifestem, są gestem miłości, są mostem
+          między babciną kuchnią a współczesnością. Kiedy nasz piekarz wstaje o świcie i zaczyna
+          ucierać masło z cukrem, robi to z namaszczeniem kapłana odprawiającego rytuał. Mąka
+          jest jak piasek mandali – ma swój wzór, swój porządek, swoje przeznaczenie. I tak jak
+          mandala jest po ukończeniu rozsypana, tak ciasto znika w ustach i zostaje jedynie
+          jako wspomnienie smaku, który chce się powtórzyć.
+        </p>
+        <p>
+          Wierzymy też, że przestrzeń mówi. Każdy mebel w Zaciszy jest zdaniem. Drewniany stół
+          to akapit spokoju, lampa nad nim to metafora ciepła, które emanuje na wszystkich
+          siedzących przy niej. Ściany milczą, ale milczą wymownie – tym rodzajem milczenia,
+          który zaprasza do myślenia, do marzenia, do bycia tu i teraz, w tej jedynej,
+          niepowtarzalnej chwili, która nigdy się nie powtórzy.
+        </p>
+        <p>
+          Zacisze to też zobowiązanie. Zobowiązanie wobec planety – używamy opakowań z recyclingu,
+          kompostujemy resztki, współpracujemy z lokalnymi dostawcami, którzy rozumieją, że
+          ekonomia musi iść w parze z ekologią. Zobowiązanie wobec społeczności – jesteśmy
+          częścią Gdyni, oddychamy jej powietrzem, słuchamy jej historii, uczestniczymy w jej
+          przyszłości. Zobowiązanie wobec każdego gościa – że zostanie przyjęty tak, jak przyjmuje
+          się kogoś bliskiego: z otwartymi drzwiami, z uśmiechem, który nie jest maską,
+          lecz prawdziwym wyrazem radości ze spotkania.
+        </p>
+      </div>
+
+      <div class="content-block">
+        <h2>Przestrzeń jako doświadczenie zmysłowe</h2>
+        <p>
+          Wchodząc do Zacisza, przekraczasz próg nie tylko fizyczny, lecz metafizyczny. Zostawiasz
+          za sobą zgiełk ulicy jak stary płaszcz zawieszony na kołku. Wchodzisz w inny rytm,
+          w inny oddech, w inny czas. Lokal liczy 12 stolików – dwanaście wysp spokoju, dwanaście
+          oaz refleksji. Tylna część sali jest najcichszym miejscem – tam czas zdaje się zatrzymywać
+          całkowicie. Oświetlenie jest ciepłe, jak blask kominka w zimowy wieczór. Muzyka, jeśli
+          gra, jest ledwie szeptem tła, niemal nieuchwytna, jak zapach kwiatu uniesiony przez wiatr.
+        </p>
+        <p>
+          Każdy zmysł jest tu traktowany z szacunkiem. Wzrok nie jest atakowany jaskrawością,
+          lecz karmiony subtelnością. Słuch nie jest drżący od hałasu, lecz kołysany ciszą.
+          Węch ma swoją ucztę: kawa, wanilia, cynamon, świeże ciasto – to symfonia aromatów,
+          której nie komponuje się świadomie, a jednak jest doskonała. Dotyk – gładkość drewna
+          pod dłonią, ciepło filiżanki, miękkość serwetki. Smak – no cóż, smak jest powodem,
+          dla którego w ogóle tu jesteś. I za tym smakiem będziesz wracać.
+        </p>
+      </div>
+
+      <div class="content-block">
+        <h2>Godziny otwarcia</h2>
+        <table class="hours-table">
+          <thead><tr><th>Dzień</th><th>Godziny</th></tr></thead>
+          <tbody>
+          <tr><td>Poniedziałek – Piątek</td><td>8:00 – 19:00</td></tr>
+          <tr><td>Sobota – Niedziela</td><td>9:00 – 18:00</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="margin-top:1rem;">
+        <a href="kawiarnia-menu.html" class="btn-primary">📋 menu</a>
+      </div>
+
     </div>
-  </footer>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-meta">© 2024 Kawiarnia Zacisze · ul. Świętojańska 47, Gdynia</p>
+  </div>
+</footer>
 
 </body>
 </html>
